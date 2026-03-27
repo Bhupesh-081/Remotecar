@@ -1,4 +1,4 @@
-# PatrolCar Pro - ESP32 Final-Year Project Stack
+# PatrolCar Pro - ESP32 First-Year Project Stack
 
 This workspace has been upgraded from a basic remote car demo to a full patrol robotics platform.
 
@@ -83,21 +83,17 @@ README.md
 
 4. Subscribe to MQTT topics for analytics and dashboards.
 
-## Project maturity roadmap
+## Some Points Related to Projects
 
-### First-year level
+### First
 
 - Manual web control
 - Basic motor movement
 - Single sensor readouts
 
-### Intermediate level
-
 - Telemetry APIs and filtered measurements
 - Event logs and bridge process on Raspberry Pi
 - Basic safety responses on obstacle detection
-
-### Third-year level
 
 - Sensor fusion with IMU and encoder data
 - Camera-assisted patrol decisions
