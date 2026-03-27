@@ -1,0 +1,19 @@
+{
+  "battery": {
+    "adc_resolution": 4095,
+    "adc_ref_voltage": 3.3,
+    "divider_ratio": 2.0,
+    "full_voltage": 8.4,
+    "empty_voltage": 6.4
+  },
+  "ultrasonic": {
+    "min_distance_cm": 2,
+    "max_distance_cm": 300,
+    "outlier_reject_window": 5,
+    "median_filter_size": 3
+  },
+  "imu_placeholder": {
+    "sample_rate_hz": 100,
+    "gyro_bias_calibrated": false
+  }
+}

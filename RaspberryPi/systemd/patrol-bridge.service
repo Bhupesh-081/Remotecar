@@ -1,0 +1,15 @@
+[Unit]
+Description=ESP32 Patrol Telemetry Bridge
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/patrolcar/RaspberryPi
+ExecStart=/usr/bin/python3 /home/pi/patrolcar/RaspberryPi/patrol_bridge.py --host 192.168.4.1 --mqtt-host localhost
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
