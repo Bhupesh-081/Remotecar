@@ -2,6 +2,8 @@
 
 This workspace has been upgraded from a basic remote car demo to a full patrol robotics platform.
 
+![Patrol Car Prototype](Images/Remote_Car.jpeg)
+
 ## What is new
 
 - Modern ESP32 WebServer dashboard with live telemetry
@@ -13,6 +15,8 @@ This workspace has been upgraded from a basic remote car demo to a full patrol r
 ## Workspace structure
 
 ```
+Images/
+	Remote_Car.jpeg
 RemoteCar/
 	RemoteCar.ino
 Sensors/
