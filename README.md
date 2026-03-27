@@ -93,7 +93,7 @@ README.md
 - Event logs and bridge process on Raspberry Pi
 - Basic safety responses on obstacle detection
 
-### Final-year level
+### Third-year level
 
 - Sensor fusion with IMU and encoder data
 - Camera-assisted patrol decisions
